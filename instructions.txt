@@ -1,0 +1,17 @@
+1.Create a virtual environment (.venv)
+
+2.Then, run the app using the command:
+streamlit run main.py
+
+The Cohere API key is already included in the code. Although it is free of cost, 
+it is better to not share it with others. If you want to use your own key, 
+you can replace it in the code. You can add it as an environmental variable by creating a .env file.
+
+3. After running the app, you will see a webpage with a text box and a button. Add your youtube url. Hit Enter key.
+It will parse the video transcript and save it as a .txt file. File will be saved in the same directory as main.py.
+The chatbot will answer questions based on this file.
+You can enter your question in the text box and click the button to get the answer. 
+The answer will be displayed below the button.
+
+4.The chatbot feature works but the video info feature where the language and title of the video gets 
+displayed on the left side bar does not. 
